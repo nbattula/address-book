@@ -22,4 +22,3 @@ export class TopBarComponent implements OnInit {
     this.store.dispatch({ type: TOGGLE_MENU, payload: !this.menuOpen });
   }
 }
-
